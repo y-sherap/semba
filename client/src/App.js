@@ -5,6 +5,7 @@ import About from './pages/About/About'
 import Home from './pages/Home/Home'
 import FindATherapist from './pages/FindATherapist/FindATherapist'
 import {Routes, Route} from 'react-router-dom'
+import './app.css'
 
 function App() {
   return (

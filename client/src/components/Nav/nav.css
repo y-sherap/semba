@@ -1,10 +1,13 @@
 #nav{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  height: 80px;
+  background-color: blue;
 }
 
 #right-nav{
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
