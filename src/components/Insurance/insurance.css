@@ -1,0 +1,20 @@
+#insurance-container{
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  #left-insurance-container{
+    width: 150px;
+  }
+  
+  .insurance-logo{
+    width: 80px;
+    align-items: center;
+  }
+  
+  .insurance-logo img{
+    max-width: 100%;
+    height: auto;
+  }
