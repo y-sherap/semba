@@ -1,0 +1,13 @@
+#nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+}
+
+#right-nav{
+  display: flex;
+  flex-direction: row;
+}
