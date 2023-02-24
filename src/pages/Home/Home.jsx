@@ -2,6 +2,7 @@ import React from 'react'
 import Banner from '../../components/Banner/Banner'
 import HowItWorks from '../../components/HowItWorks/HowItWorks'
 import Insurance from '../../components/Insurance/Insurance'
+import Quotes from '../../components/Quotes/Quotes'
 import './home.css'
 
 
@@ -16,6 +17,9 @@ function Home() {
       </div>
       <div className='home-component'>
         <HowItWorks />
+      </div>
+      <div className='home-component'>
+        <Quotes />
       </div>
     </div>
   )

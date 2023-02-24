@@ -1,0 +1,82 @@
+#quote-page {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    width: auto;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    border: black solid 1px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  #dots-carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .dot:focus{
+    background-color: blue;
+  }
+
+  .dot-test{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(186, 196, 186);
+    border-radius: 75%;
+    margin-top: 50%;
+    margin-right: 20px;
+  }
+
+  .dot-test.clicked-dot {
+    background-color: rgb(55, 111, 49);
+  }
+
+  .quote-container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+  }
+
+  .quote-item{
+    font-size: 25px;
+    width: 700px;
+    margin-bottom: 3%;
+  }
+
+  .quote-author{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    flex-direction: row;
+  }
+
+  .pfp-author{
+    width: 100px;
+    height: 100px;
+    margin-right: 1%;
+    border-radius: 75px;
+    border: white solid 2px;
+
+  }
+
+  .pfp-author img{
+    width: 100%;
+    height: 100%;
+    border-radius: 75px;
+  }
+
+  .author-name{
+    text-align: left;
+  }
+
+  .author-header{
+    color: green;
+  }
