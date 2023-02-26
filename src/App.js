@@ -1,5 +1,4 @@
 import Nav from './components/Nav/Nav'
-import Footer from './components/Footer/Footer'
 import HowItWorks from './pages/HowItWorks/HowItWorks'
 import About from './pages/About/About'
 import Home from './pages/Home/Home'
@@ -11,7 +10,6 @@ function App() {
   return (
     <div>
       <Nav />
-      <Footer />
       <Routes>
         <Route path='/' element ={<Home />} />
         <Route path='/how-it-works' element ={<HowItWorks />} />

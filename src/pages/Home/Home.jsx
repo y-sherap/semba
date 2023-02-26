@@ -1,6 +1,7 @@
 import React from 'react'
 import Banner from '../../components/Banner/Banner'
 import FAQ from '../../components/FAQ/FAQ'
+import Footer from '../../components/Footer/Footer'
 import HowItWorks from '../../components/HowItWorks/HowItWorks'
 import Insurance from '../../components/Insurance/Insurance'
 import Quotes from '../../components/Quotes/Quotes'
@@ -24,6 +25,9 @@ function Home() {
       </div>
       <div className='home-component'>
         <Quotes />
+      </div>
+      <div className='home-component'>
+        <Footer />
       </div>
     </div>
   )

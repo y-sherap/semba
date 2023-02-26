@@ -1,4 +1,16 @@
 #footer{
-  position:fixed;
-  bottom: 0;
+  border: grey solid 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-heading{
+  /* background-color: grey; */
+}
+
+#footer-top, #footer-bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
