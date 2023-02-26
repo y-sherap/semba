@@ -10,8 +10,8 @@
   #banner-text{
     position: absolute;
     left: 4%;
-    bottom: 30%;
-    font-size: 60px;
+    bottom: 25%;
+    font-size: 70px;
     color: rgb(255, 255, 255);
     animation: slide-up 1s ease-in-out;
   }

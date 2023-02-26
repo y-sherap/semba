@@ -6,9 +6,8 @@ function Banner() {
   return (
     <div id='banner'>
     <div id='banner-text'>
-      <div>Lorem ipsum dolor sit amet</div>
-      <div>consectetur adipiscing  </div> 
-      <div>sed finibus est.</div>
+      <div>Free your mind</div>
+      <div>where ever you are </div> 
     </div>
     <div>
     <img src={BannerImage} alt='banner' id='banner-image' />
