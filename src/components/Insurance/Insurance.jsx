@@ -4,7 +4,6 @@ import United from '../../assets/united.png'
 import Cigna from '../../assets/cigna.png'
 import Oscar from '../../assets/oscar.png'
 import Empire from '../../assets/empire.png'
-import Anthem from '../../assets/anthem.png'
 import './insurance.css'
 
 function Insurance() {
@@ -17,19 +16,16 @@ function Insurance() {
         <img src={Aetna} alt='aetna' />
       </div>
       <div className='insurance-logo'>
-        <img src={Anthem} alt='aetna' />
+        <img src={Empire} alt='empire' />
       </div>
       <div className='insurance-logo'>
-        <img src={Cigna} alt='aetna' />
+        <img src={Cigna} alt='cigna' />
       </div>
       <div className='insurance-logo'>
-        <img src={Empire} alt='aetna' />
+        <img src={Oscar} alt='oscar' />
       </div>
       <div className='insurance-logo'>
-        <img src={Oscar} alt='aetna' />
-      </div>
-      <div className='insurance-logo'>
-        <img src={United} alt='aetna' />
+        <img src={United} alt='united' />
       </div>
   </div>
   )
