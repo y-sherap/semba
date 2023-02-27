@@ -1,11 +1,17 @@
-.home-component{
-  margin-bottom: 1.2%;
-}
-
 .home-component-faq{
   margin-bottom: 1.2%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+
+.divider svg {
+  width: 100%;
+  height: 40px;
+}
+
+.divider .shape-fill {
+  fill: #f9f4e9;
 }
