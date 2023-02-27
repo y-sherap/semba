@@ -6,9 +6,10 @@
     overflow: hidden;
     justify-content: center;
     align-items: center;
-    border: black solid 1px;
     padding-top: 3%;
     padding-bottom: 3%;
+    background-color: #faf8ef
+    ;
   }
 
   #dots-carousel{
@@ -16,10 +17,6 @@
     flex-direction: row;
     justify-content: center;
     cursor: pointer;
-  }
-
-  .dot:focus{
-    background-color: blue;
   }
 
   .dot-test{
