@@ -16,7 +16,23 @@ const FAQData = [
         "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis egestas sollicitudin leo, vel consequat eros cursus eu. Fusce commodo est nec elit viverra facilisis. Nulla tincidunt finibus mi, sit amet eleifend velit viverra mattis. Sed euismod placerat nibh, nec sollicitudin nibh pretium ac."
     },
     {
-        "question": "How will I communicate with my therapist?",
+        "question": "What is a consultation? Is it free?",
+        "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis egestas sollicitudin leo, vel consequat eros cursus eu. Fusce commodo est nec elit viverra facilisis. Nulla tincidunt finibus mi, sit amet eleifend velit viverra mattis. Sed euismod placerat nibh, nec sollicitudin nibh pretium ac."
+    },
+    {
+        "question": "How and where will the sessions take place?",
+        "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis egestas sollicitudin leo, vel consequat eros cursus eu. Fusce commodo est nec elit viverra facilisis. Nulla tincidunt finibus mi, sit amet eleifend velit viverra mattis. Sed euismod placerat nibh, nec sollicitudin nibh pretium ac."
+    },
+    {
+        "question": "How often will I meet with my therapist",
+        "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis egestas sollicitudin leo, vel consequat eros cursus eu. Fusce commodo est nec elit viverra facilisis. Nulla tincidunt finibus mi, sit amet eleifend velit viverra mattis. Sed euismod placerat nibh, nec sollicitudin nibh pretium ac."
+    },
+    {
+        "question": "What if I don't have insurance coverage",
+        "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis egestas sollicitudin leo, vel consequat eros cursus eu. Fusce commodo est nec elit viverra facilisis. Nulla tincidunt finibus mi, sit amet eleifend velit viverra mattis. Sed euismod placerat nibh, nec sollicitudin nibh pretium ac."
+    },
+    {
+        "question": "How do I submit claims?",
         "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis egestas sollicitudin leo, vel consequat eros cursus eu. Fusce commodo est nec elit viverra facilisis. Nulla tincidunt finibus mi, sit amet eleifend velit viverra mattis. Sed euismod placerat nibh, nec sollicitudin nibh pretium ac."
     },
 ]

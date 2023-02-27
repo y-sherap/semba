@@ -22,7 +22,7 @@ function FAQ() {
             {FAQData.map((item, index) => (
                 <div key={index} onClick={()=> toggleAccordian(index)}>
                     <div className='faq-heading'>
-                        <h3 className={clickedIcon === index ? "active" : "" }>{item.question}</h3>
+                        <p className={clickedIcon === index ? "active" : "" }>{item.question}</p>
                     <div>
                         {clickedIcon === index ? (
                             <span className='minus'>-</span>
