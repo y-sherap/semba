@@ -4,14 +4,14 @@ import './banner.css'
 
 function Banner() {
   return (
-    <div id='banner'>
-    <div id='banner-text'>
-      <div>A brighter future starts</div>
-      <div>with a healthier mind,</div> 
-      <div>online</div> 
+    <div className='banner'>
+    <div className='banner-text'>
+      <div>A brighter future</div>
+      <div> starts with a healthier</div> 
+      <div>mind, online</div> 
     </div>
     <div>
-      <img src={BannerImage} alt='banner' id='banner-image' />
+      <img src={BannerImage} alt='banner' className='banner-image' />
     </div>
   </div>
   )
