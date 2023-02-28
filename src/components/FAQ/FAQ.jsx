@@ -16,7 +16,7 @@ function FAQ() {
     }
 
   return (
-    <div id='faq-component'>
+    <div id='faq'>
         <div id='faq-title'>Frequently asked questions</div>
         <div id='faq-container'>
             {FAQData.map((item, index) => (
