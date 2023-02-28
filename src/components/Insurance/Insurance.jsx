@@ -12,6 +12,7 @@ function Insurance() {
     <div id='left-insurance-container'>
       Insurance companies we work with:
     </div>
+    <div id='right-insurance-container'>
       <div className='insurance-logo'>
         <img src={Aetna} alt='aetna' />
       </div>
@@ -27,6 +28,7 @@ function Insurance() {
       <div className='insurance-logo'>
         <img src={United} alt='united' />
       </div>
+    </div>
   </div>
   )
 }

@@ -79,3 +79,52 @@
       opacity: 1;
     }
   }
+
+  @media (max-width: 866px){
+    #insurance-container{
+      display: flex;
+      flex-direction: column;  
+      align-items: center;
+      padding: 20px 40px;
+      justify-content: center;
+      line-height: 1.7;
+    }
+    
+    #left-insurance-container{
+      font-size: 14px;
+      color: #69616166;
+      animation: slide-up 1.2s ease-in-out;
+      animation-fill-mode: both;
+      opacity: 1;
+      order: 0;
+      width: 100%;
+      text-align: center;
+    }
+
+    #right-insurance-container{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: auto;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .insurance-logo{
+      width: 80px;
+      align-items: center;
+      margin-right: 40px;
+      margin-top: 10px;
+    }
+  
+    @keyframes slide-up {
+      0% {
+        transform: translateY(50px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  }
