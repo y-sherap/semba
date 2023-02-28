@@ -6,7 +6,6 @@ function Footer() {
   return (
     <div id='footer'>
       <div id='footer-top'>
-        <div id='footer-first-column'>
           <div className='footer-heading'>
           <div>
             <div className='footer-title'>Questions?</div>
@@ -15,10 +14,9 @@ function Footer() {
             <div className='footer-item'>press@semba.com</div>
           </div>
           </div>
-        </div>
       <div className='footer-heading'>
           <div>
-          <div className='footer-title'>Get Started?</div>
+          <div className='footer-title'>Get Started</div>
           <div className='footer-item'>Find a therapist</div>
           <div className='footer-item'>How it works</div>
           </div>
@@ -31,7 +29,7 @@ function Footer() {
             <div className='footer-item'>Refer a provider</div>
           </div>
       </div>
-      <div className='footer-heading'>
+      <div className='footer-heading-info'>
           <div>
           <div className='footer-title'>Information</div>
             <div className='footer-item'>Our mission</div>
