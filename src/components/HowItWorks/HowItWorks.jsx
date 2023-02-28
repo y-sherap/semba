@@ -14,7 +14,7 @@ function HowItWorks() {
                     <img src={Handshake} alt='cartoon' />
                 </div>
                 <div className='right-item'>
-                    <h2>Get matched to the best therapist for you</h2>
+                    <h2>Find the best therapist for you</h2>
                     <p>Answer a few questions to find a licensed therapist who fits your needs and preferences. Tap into the largest network of licensed, professional, board-certified providers.</p>
                 </div>
             </div>
@@ -22,7 +22,7 @@ function HowItWorks() {
                 <div className='left-item'>
                     <img src={Communicate} alt='cartoon' />
                 </div>
-                <div className='right-item'>
+                <div className='right-item-2'>
                     <h2>Communicate your way</h2>
                     <p>Talk to your therapist however you feel comfortable — text, chat, phone, or video.</p>
                 </div>
