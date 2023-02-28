@@ -1,0 +1,26 @@
+.about-banner{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(7, 49, 7);
+    font-size: 46px;
+    padding: 20px 400px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    height: 25vh;
+}
+
+@media (max-width: 866px){
+    .about-banner{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(7, 49, 7);
+        font-size: 30px;
+        padding: 10px 20px;
+        color: white;
+        align-items: center;
+        text-align: center;
+        height: 35vh;
+
+    }
+}

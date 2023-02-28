@@ -31,16 +31,7 @@ function Nav() {
       <div className={showNav ? "right-nav-expanded" : "right-nav"}>
         <ul>
           <li>
-            <a href='/how-it-works'>How It Works</a>
-          </li>
-          <li>
-            <a href='/about'>About Semba</a>
-          </li>
-          <li>
-            <a href='/#faq'>FAQ</a>
-          </li>
-          <li>
-            <a href='/#contact'>Contact</a>
+            <a href='/about'>About</a>
           </li>
         </ul>
         <div><button onClick={linkTo}>Find A Therapist</button></div>            
