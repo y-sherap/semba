@@ -47,9 +47,9 @@
       position:absolute;
       z-index: 0;
       left: 4%;
-      bottom: 60%;
+      bottom: 72%;
       font-size: 25px;
-      color: rgb(255, 255, 255);
+      color: rgb(15, 58, 14);
       animation: slide-up 1s ease-in-out;
     }
   }
