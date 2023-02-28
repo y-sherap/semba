@@ -77,3 +77,62 @@
   .author-header{
     color: green;
   }
+
+  @media (max-width: 866px){
+    #quote-page {
+      display: flex;
+      flex-direction: column;
+      height: 40vh;
+      width: auto;
+      overflow: hidden;
+      justify-content: center;
+      align-items: center;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      background-color: #faf8ef
+      ;
+    }
+  
+    #dots-carousel{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      cursor: pointer;
+    }
+  
+    .dot-test{
+      width: 15px;
+      height: 15px;
+      background-color: rgb(186, 196, 186);
+      border-radius: 75%;
+      margin-top: 20%;
+      margin-right: 20px;
+    }
+  
+    .dot-test.clicked-dot {
+      background-color: rgb(55, 111, 49);
+    }
+  
+    .quote-container{
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 200px;
+      width: 400px;
+    }
+  
+    .quote-item{
+      font-size: 20px;
+      width: 400px;
+      margin-bottom: 3%;
+    }
+
+    .pfp-author{
+      width: 100px;
+      height: 100px;
+      margin-right: 1%;
+      border-radius: 75px;
+      border: white solid 2px;
+    }  
+}

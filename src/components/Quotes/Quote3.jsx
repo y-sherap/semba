@@ -10,7 +10,7 @@ function Quote3() {
         <div className='pfp-author'><img src={PFP3} alt='client-picture'/></div>
         <div className='author-name'>
           <div className='author-header'>Client</div>
-          <div>John Doe</div>
+          <div>Jenny Tsang</div>
         </div>
       </div>
     </div>

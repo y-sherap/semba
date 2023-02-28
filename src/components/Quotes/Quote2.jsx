@@ -9,7 +9,7 @@ function Quote2() {
         <div className='pfp-author'><img src={PFP2} alt='client-picture'/></div>
         <div className='author-name'>
           <div className='author-header'>Client</div>
-          <div>John Doe</div>
+          <div>Matt Zelensky</div>
         </div>
       </div>
     </div>
