@@ -15,15 +15,6 @@ function Footer() {
             <div className='footer-item'>press@semba.com</div>
           </div>
           </div>
-          <div className='footer-heading'>
-            <div className='footer-title'>Follow Us</div>
-            <div id='icons'>
-              <div className='social-icons'><BsFacebook /></div>
-              <div className='social-icons'><BsTwitter /></div>
-              <div className='social-icons'><BsLinkedin /></div>
-            </div>
-          </div>
-
         </div>
       <div className='footer-heading'>
           <div>
@@ -48,6 +39,14 @@ function Footer() {
             <div className='footer-item'>Careers</div>
           </div>
       </div>
+      <div className='footer-heading'>
+            <div className='footer-title'>Follow Us</div>
+            <div id='icons'>
+              <div className='social-icons'><BsFacebook /></div>
+              <div className='social-icons'><BsTwitter /></div>
+              <div className='social-icons'><BsLinkedin /></div>
+            </div>
+          </div>
 
       </div>
       <div id='footer-bottom'>
