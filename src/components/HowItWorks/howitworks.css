@@ -64,7 +64,7 @@
         font-size: 40px;
         padding-top: 10%;
         text-align: center;
-        margin-bottom: 4%;
+        margin-bottom: 8%;
     }
     
     #how-it-works-elements{
@@ -86,12 +86,21 @@
     .left-item{
         width: 70%;
         text-align: center;
+        width: 40vh;
     }
     
     .right-item{
         height: auto;
         width: 70%;
-        margin-top: 5vh;
+        margin-top: 3vh;
+    }
+
+    .right-item h2 {
+        margin: 0px;
+    }
+
+    .right-item-2 h2 {
+        margin: 0px;
     }
     
     .right-item-2{

@@ -1,6 +1,6 @@
 import React from 'react'
 import './howitworks.css'
-import Handshake from '../../assets/handshake.png'
+import Handshakee from '../../assets/Handshakee.png'
 import Communicate from '../../assets/communicate.png'
 
 
@@ -11,7 +11,7 @@ function HowItWorks() {
         <div id='how-it-works-elements'>
             <div id='how-it-works-item'>
                 <div className='left-item'>
-                    <img src={Handshake} alt='cartoon' />
+                    <img src={Handshakee} alt='cartoon' />
                 </div>
                 <div className='right-item'>
                     <h2>Find the best therapist for you</h2>
