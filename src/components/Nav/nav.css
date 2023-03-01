@@ -91,10 +91,10 @@ button:hover{
     align-items: first baseline;
   }
 
-  .right-nav-expanded li:hover {
-    background-color: #6f5353;
+  /* .right-nav-expanded li:hover {
+    color: #0c288c;
   }
-  
+   */
   button {
     margin-left: 40px;
     width: 100%;

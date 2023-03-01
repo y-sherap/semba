@@ -34,7 +34,7 @@ function Nav() {
             <a href='/about'>About</a>
           </li>
         </ul>
-        <div><button onClick={linkTo}>Find A Therapist</button></div>            
+        {/* <div><button onClick={linkTo}>Find A Therapist</button></div>             */}
       </div>
     </div>
   )
